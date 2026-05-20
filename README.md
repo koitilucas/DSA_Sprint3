@@ -31,7 +31,7 @@ O sistema simula o fluxo de pacientes em teleconsultas da plataforma Blua da Car
 ### Fila (FIFO)
 Utilizada para armazenar pacientes aguardando atendimento.
 
-Operações implementadas:
+Principais operações implementadas:
 - enqueue
 - dequeue
 - is_empty
@@ -39,7 +39,7 @@ Operações implementadas:
 ### Pilha (LIFO)
 Utilizada para armazenar histórico das consultas realizadas.
 
-Operações implementadas:
+Principais operações implementadas:
 - push
 - pop
 - peek
@@ -65,9 +65,9 @@ gcc dsaSprint3.c -o sistema
 
 ## Cenários Demonstrados
 
-1. Cadastro de pacientes comuns
-2. Atendimento prioritário de emergência
-3. Consulta do histórico de atendimentos
+1. Cadastro e chamada de pacientes comuns
+2. Cadastro e chamada de pacientes prioritários
+3. Gerenciamento de pacientes comuns e prioritários
 
 ---
 
@@ -75,13 +75,14 @@ gcc dsaSprint3.c -o sistema
 
 - `dsaSprint3.c` → código-fonte principal
 - `DSA_Sprint3.pdf` → relatório técnico
+- `Diagrama de Funcionamento.png` → Imagem do diagrama de funcionamento
 
 ---
 
 ## Vídeo Demonstrativo
 
 Link do vídeo:
-(COLE O LINK AQUI)
+https://youtu.be/0NH8zII___U
 
 ---
 
